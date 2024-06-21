@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <div className={style.innerFooterDiv}>
                 <div>
-                    <img src={Logo} alt={'Logo'} />
+                    <img src={Logo} alt={'Logo'} className={style.footerLogo} />
                     <p className={style.whatWeDo}>
                         We take complex hiring processes - and <br/>
                         simplify them. Connecting you to the world’s <br/>
