@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EDEFFF;
+    padding: 70px 0;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: center;
+    }
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.findADevDiv {
+    display: flex;
+    flex-direction: column;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+    }
+}
+
+.itProfessionals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.innerItPro {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+
+.halfLogo {
+    display: flex;
+    gap: 10px;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+}
+
+.logoImage {
+    background-color: black;
+    padding: 15px 18px;
+    border-radius: 20px;
+}
+
+.stacksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.engrStacksDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+    padding: 20px 20px;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0;
+    }
+}
+
+.engrStacksInner {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    gap: 35px;
+}
+
+.stackLogos {
+    background-color: #F6F6F6;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.stackNames {
+    font-family: switzer, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+}

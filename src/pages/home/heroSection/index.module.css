@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 40px 40px;
+    gap: 40px;
+
+    > p {
+        font-family: switzer, serif;
+        color: black;
+        text-align: center;
+    }
+}
+
+.heroCaption {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.heroSubCaption {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: -50px 0 0;
+}
+
+.midHero {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 25px;
+
+        > span {
+            color: #a5a5a5;
+        }
+    }
+}
+
+.heroLastSec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 110px;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+.heroSectionBtn {
+    display: flex;
+}
+
+.rowHolder{
+    display: flex;
+    gap: 180px;
+}
+
+.row {
+    display: block;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.listItem {
+    flex: 1;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-family: switzer, serif;
+    font-size: 16px;
+    color: #afaeae;
+}
+
+.customStyle {
+    color: #202229;
+    font-weight: 500;
+}
