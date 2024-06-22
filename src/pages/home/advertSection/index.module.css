@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #EDEFFF;
-    padding: 70px 0;
+    padding: 70px 40px;
 
     > p {
         font-family: switzer, serif;
@@ -19,7 +19,9 @@
 .innerContainer {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
+    width: 100%;
+
 }
 
 .mainDiv {
@@ -41,22 +43,23 @@
 }
 
 .itProfessionals {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    margin-top: -15px;
+    row-gap: 10px;
 }
 
 .innerItPro {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin: 0;
 
     > p {
         font-family: switzer, serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 32px;
+        margin: 0;
     }
 }
 
@@ -74,8 +77,10 @@
 
 .logoImage {
     background-color: black;
-    padding: 15px 18px;
-    border-radius: 20px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    height: 74px;
+    width: 74px;
 }
 
 .stacksContainer {
@@ -110,7 +115,9 @@
 .stackLogos {
     background-color: #F6F6F6;
     padding: 10px 10px;
-    border-radius: 20px;
+    /*border-radius: 50px;*/
+    height: 50px;
+    width: 50px;
 }
 
 .stackNames {
@@ -119,4 +126,15 @@
     font-weight: 600;
     line-height: 18px;
     text-align: center;
+}
+
+.halfLogoDiv {
+    width: 96px;
+    height: 96px;
+    border-radius: 30px;
+}
+
+.halfLogo {
+    width: 25px;
+    height: 15px;
 }

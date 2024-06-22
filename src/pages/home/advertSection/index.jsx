@@ -43,13 +43,14 @@ const AdvertSection = () => {
                                     45 Sub-Categories
                                 </p>
                             </div>
+                            <div className={style.innerItPro}>
+                                <img src={Vector3} alt={'Vector'}/>
+                                <p>
+                                    1011 Profiles
+                                </p>
+                            </div>
                         </div>
-                        <div className={style.innerItPro}>
-                            <img src={Vector3} alt={'Vector'}/>
-                            <p>
-                                1011 Profiles
-                            </p>
-                        </div>
+
                     </div>
                     <div className={style.findADevDiv}>
                         <p>
@@ -69,19 +70,19 @@ const AdvertSection = () => {
                                     45 Sub-Categories
                                 </p>
                             </div>
-                        </div>
-                        <div className={style.innerItPro}>
-                            <img src={Vector3} alt={'Vector'}/>
-                            <p>
-                                1011 Profiles
-                            </p>
+                            <div className={style.innerItPro}>
+                                <img src={Vector3} alt={'Vector'}/>
+                                <p>
+                                    1011 Profiles
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className={style.halfLogo}>
                         <img src={HalfLogoWhite} alt={'Logo'}
                              className={style.logoImage}/>
                         <p>
-                            Explore More
+                        Explore More
                         </p>
                     </div>
                 </div>
@@ -126,9 +127,9 @@ const AdvertSection = () => {
                                     Dot Net <br/> Developer
                                 </p>
                             </div>
-                            <div>
+                            <div className={style.halfLogoDiv}>
                                 <img src={HalfLogo} alt={'Logo'}
-                                     className={style.stackLogos}/>
+                                     className={style.halfLogo}/>
                             </div>
                         </div>
                     </div>
@@ -137,9 +138,10 @@ const AdvertSection = () => {
                             Design & Creative
                         </p>
                         <div className={style.engrStacksInner}>
-                            <div>
+
+                            <div className={style.halfLogoDiv}>
                                 <img src={HalfLogoLeft} alt={'Logo'}
-                                     className={style.stackLogos}/>
+                                     className={style.halfLogo}/>
                             </div>
                             <div>
                                 <img src={FigmaLogo} alt={'Figma Logo'}
