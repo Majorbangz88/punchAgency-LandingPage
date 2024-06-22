@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 110px 60px 80px;
+}
+
+.innerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.firstText {
+    font-family: switzer, serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: black;
+    margin: 0;
+}
+
+.secondText {
+    font-family: switzer, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: black;
+    margin: 0;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid #f4f2f2;
+    padding: 10px;
+
+    > p {
+        font-family: switzer, serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+        color: black;
+    }
+}
+
+.icons {
+    background-color: #ECECEC;
+    padding: 15px 15px;
+    border-radius: 44px;
+}
+
+#thisIcon {
+    background-color: #8BA4FD;
+}
+
+.strategy {
+    font-family: switzer, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#thisBox {
+    border: none;
+}
+
+.mainBox {
+    background-color: white;
+    box-shadow: #dcdbdb 1px 4px 7px;
+}
