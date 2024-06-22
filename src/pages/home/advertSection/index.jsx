@@ -50,7 +50,6 @@ const AdvertSection = () => {
                                 </p>
                             </div>
                         </div>
-
                     </div>
                     <div className={style.findADevDiv}>
                         <p>
@@ -79,10 +78,13 @@ const AdvertSection = () => {
                         </div>
                     </div>
                     <div className={style.halfLogo}>
-                        <img src={HalfLogoWhite} alt={'Logo'}
-                             className={style.logoImage}/>
+                        <div className={style.halfLogoDiv}
+                             style={{background: 'black', height: '70px',
+                                 width: '70px', borderRadius: '25px'}} >
+                            <img src={HalfLogoWhite} alt={'Logo'}/>
+                        </div>
                         <p>
-                        Explore More
+                            Explore More
                         </p>
                     </div>
                 </div>
@@ -93,43 +95,52 @@ const AdvertSection = () => {
                         </p>
                         <div className={style.engrStacksInner}>
                             <div>
-                                <img src={Shopify} alt={'Shopify Logo'}
-                                className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={Shopify} alt={'Shopify Logo'}
+                                         className={style.stackLogos}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Shopify <br/> Developer
                                 </p>
                             </div>
                             <div>
-                                <img src={Magento} alt={'Magento Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={Magento} alt={'Magento Logo'}
+                                         className={style.stackLogos}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Magento <br/> Developer
                                 </p>
                             </div>
                             <div>
-                                <img src={DataScientist} alt={'Data Science'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={DataScientist} alt={'Data Science'}
+                                         className={style.stackLogos}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Data <br/> Scientist
                                 </p>
                             </div>
                             <div>
-                                <img src={WebFlow} alt={'Webflow Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={WebFlow} alt={'Webflow Logo'}
+                                         style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Webflow <br/> Developer
                                 </p>
                             </div>
                             <div>
-                                <img src={DotNet} alt={'Dot Net Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv} id={style.engrStacksInnerDiv}>
+                                    <img src={DotNet} alt={'Dot Net Logo'}
+                                    style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Dot Net <br/> Developer
                                 </p>
                             </div>
                             <div className={style.halfLogoDiv}>
-                                <img src={HalfLogo} alt={'Logo'}
-                                     className={style.halfLogo}/>
+                                <img src={HalfLogo} alt={'Logo'}/>
                             </div>
                         </div>
                     </div>
@@ -140,48 +151,58 @@ const AdvertSection = () => {
                         <div className={style.engrStacksInner}>
 
                             <div className={style.halfLogoDiv}>
-                                <img src={HalfLogoLeft} alt={'Logo'}
-                                     className={style.halfLogo}/>
+                                <img src={HalfLogoLeft} alt={'Logo'}/>
                             </div>
                             <div>
-                                <img src={FigmaLogo} alt={'Figma Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={FigmaLogo} alt={'Figma Logo'}
+                                         style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     UX <br/> Designer
                                 </p>
                             </div>
                             <div>
-                                <img src={PhotoShop} alt={'PS Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={PhotoShop} alt={'PS Logo'}
+                                         style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Graphics <br/> Designer
                                 </p>
                             </div>
                             <div>
-                                <img src={Illustrator} alt={'Illustrator Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={Illustrator} alt={'Illustrator Logo'}
+                                         style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Illustration <br/> Artist
                                 </p>
                             </div>
                             <div>
-                                <img src={Unreal} alt={'Unreal Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={Unreal} alt={'Unreal Logo'}
+                                         style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Unreal <br/> Engine
                                 </p>
                             </div>
                             <div>
-                                <img src={Cinema} alt={'Cinema 4D Logo'}
-                                     className={style.stackLogos}/>
+                                <div className={style.engrStacksInnerDiv}>
+                                    <img src={Cinema} alt={'Cinema 4D Logo'}
+                                         style={{width: '40px', height: '40px'}}/>
+                                </div>
                                 <p className={style.stackNames}>
                                     Cinema <br/> 4D
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <p>
-                        30 more to explore
+                    <p style={{fontFamily: 'switzer', fontSize: '22px',
+                        fontWeight: '500', lineHeight: '32px'}}>
+                        <strong>30 more </strong> to explore
                     </p>
                 </div>
             </div>

@@ -4,7 +4,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: black;
-    padding: 40px;
+    padding: 60px;
 }
 
 .tiltedBackground {

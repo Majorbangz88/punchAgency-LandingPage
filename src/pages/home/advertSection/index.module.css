@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #EDEFFF;
-    padding: 70px 40px;
+    padding: 70px 60px;
 
     > p {
         font-family: switzer, serif;
@@ -21,18 +21,20 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    align-items: end;
 
 }
 
 .mainDiv {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 60px;
 }
 
 .findADevDiv {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 
     > p {
         font-family: switzer, serif;
@@ -46,7 +48,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    row-gap: 10px;
+    row-gap: 20px;
 }
 
 .innerItPro {
@@ -86,7 +88,7 @@
 .stacksContainer {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .engrStacksDiv {
@@ -112,12 +114,18 @@
     gap: 35px;
 }
 
-.stackLogos {
+.engrStacksInnerDiv {
+    display: flex;
+    justify-content: center;
     background-color: #F6F6F6;
-    padding: 10px 10px;
-    /*border-radius: 50px;*/
-    height: 50px;
-    width: 50px;
+    padding: 20px 20px;
+    border-radius: 44px;
+}
+
+#engrStacksInnerDiv {
+    display: flex;
+    /*padding: 20px 20px;*/
+    border-radius: 50%;
 }
 
 .stackNames {
@@ -132,9 +140,13 @@
     width: 96px;
     height: 96px;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
 }
 
 .halfLogo {
-    width: 25px;
-    height: 15px;
+    display: flex;
+    flex-direction: row;
 }
