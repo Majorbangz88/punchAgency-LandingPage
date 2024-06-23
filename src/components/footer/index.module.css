@@ -12,7 +12,6 @@ footer {
     padding: 60px;
     z-index: 1;
     background-color: rgb(82, 90, 160);
-    /*margin: 30px;*/
     display: flex;
     justify-content: center;
 
@@ -24,30 +23,6 @@ footer {
         text-align: center;
     }
 }
-
-/*.tiltedBackground::before,*/
-/*.tiltedBackground::after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    background-color: #3498db;*/
-/*    z-index: -1;*/
-/*}*/
-
-/*.tiltedBackground::before {*/
-/*    top: 0;*/
-/*    height: 50%;*/
-/*    transform: skewY(-3deg);*/
-/*    transform-origin: top right;*/
-/*}*/
-
-/*.tiltedBackground::after {*/
-/*    bottom: 0;*/
-/*    height: 50%;*/
-/*    transform: skewY(3deg);*/
-/*    transform-origin: bottom left;*/
-/*}*/
 
 .footerLogo {
     padding-top: 30px;

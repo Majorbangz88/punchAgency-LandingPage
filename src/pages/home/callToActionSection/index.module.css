@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCaption {
+    font-family: switzer, serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px
+}
+
+.firstDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDEFFF;
+    padding: 0 30px;
+    width: 96.2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSubDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.secondSubDiv {
+    display: flex;
+    width: 407px;
+    gap: 20px;
+}
