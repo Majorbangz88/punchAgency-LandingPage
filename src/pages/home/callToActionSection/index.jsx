@@ -1,16 +1,28 @@
 import style from './index.module.css';
 import CTAComponent from "../../../components/callToActionComp";
 import One from '../../../assets/1.png';
+import Two from '../../../assets/2.svg';
+import Three from '../../../assets/3.svg';
 import HalfLogo from '../../../assets/Half Logo White.svg';
 import RubyDev from '../../../assets/Ruby Developer.svg';
 import SysopDev from '../../../assets/Sysops Engr.svg';
 import Engineer1 from '../../../assets/Engineer 1.svg';
 import Engineer2 from '../../../assets/Engineer 2.svg';
+import Group from '../../../assets/Group 626358.svg';
+import Group2 from '../../../assets/Group 626351.svg'
 
 const CallToActionSection = () => {
     const caption = 'Find your next star <br/> performer.';
     const subCaption = 'Explore the vast Zwilt marketplace to find the candidate <br/> that meets your needs.';
     const lastText = 'Join Now';
+
+    const secondBoxCaption = 'Evaluate to your <br/> heart’s content.';
+    const secondSubCaption = 'Assess the candidate through work history, transparent <br/> tests and video interviews.';
+    const secondDivLastText = 'Browse More';
+
+    const thirdBoxCaption = 'Start building <br/> your team.';
+    const thirdSubCaption = 'Onboard your candidate right away and start <br/> creating the next big thing.';
+
 
     return (
         <section className={style.container}>
@@ -89,8 +101,34 @@ const CallToActionSection = () => {
                     </div>
                 </div>
             </div>
-            <div></div>
-            <div></div>
+            <div className={style.secondDiv}>
+                <div>
+                    <CTAComponent
+                        image={Two}
+                        boldText={<span dangerouslySetInnerHTML={{__html: secondBoxCaption}}/>}
+                        secondText={<span dangerouslySetInnerHTML={{__html: secondSubCaption}}/>}
+                        secondImage={HalfLogo}
+                        lastText={secondDivLastText}
+                    />
+                </div>
+                <div className={style.mainDiv}>
+                    <img src={Group2} alt={''}/>
+                </div>
+            </div>
+            <div className={style.thirdDiv}>
+                <div>
+                    <CTAComponent
+                        image={Three}
+                        boldText={<span dangerouslySetInnerHTML={{__html: thirdBoxCaption}}/>}
+                        secondText={<span dangerouslySetInnerHTML={{__html: thirdSubCaption}}/>}
+                        secondImage={HalfLogo}
+                        lastText={lastText}
+                    />
+                </div>
+                <div className={style.mainDiv}>
+                    <img src={Group} alt={'Group'}/>
+                </div>
+            </div>
         </section>
     );
 }

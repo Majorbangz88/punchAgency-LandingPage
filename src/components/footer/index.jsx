@@ -3,15 +3,23 @@ import style from './index.module.css';
 import Logo from '../../assets/logo.svg'
 import FilledButton from "../buttons/filleButton";
 import FooterContent from './data';
+import HalfLogo from '../../assets/HalfLogoArrowDown.svg';
+import TiltedAngle from '../../assets/Tilted Angle.svg'
+
 
 const Footer = () => {
     return (
         <footer>
+            <img src={TiltedAngle} alt={'Tilted Angle'} style={{marginTop: '-70.5px',
+                marginLeft: '-60px', width: '1587px'}} />
             <div className={style.tiltedBackground}>
                 <p>
                     Need a job done, and done <br/>
                     well? Get started
                 </p>
+                <div className={style.halfLogo}>
+                    <img src={HalfLogo} alt={''}/>
+                </div>
             </div>
             <div className={style.innerFooterDiv}>
                 <div>

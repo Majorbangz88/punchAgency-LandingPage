@@ -5,10 +5,14 @@ import HalfLogoLeft from '../../../assets/Half Logo Left.svg';
 import HalfLogoRight from '../../../assets/Half Logo.svg';
 import Frame from '../../../assets/Frame 626655.svg';
 import Quote from '../../../assets/Quotes.svg';
+import TilltedAngle1 from '../../../assets/Tilted Angle.svg';
+import TilltedAngle2 from '../../../assets/Tilted Angle 2.svg';
 
 const ReviewsSection = () => {
     return (
         <section className={style.container}>
+            <img src={TilltedAngle1} alt="Tillted Angle" style={{marginTop: '-70.5px',
+                marginLeft: '-1px', width: '1587px'}} />
             <img src={Quote} alt={'Apostrophe'} className={style.quote}/>
             <div className={style.innerSection}>
                 <div className={style.innerContainer}>
@@ -54,6 +58,8 @@ const ReviewsSection = () => {
                     </p>
                 </div>
             </div>
+            <img src={TilltedAngle2} alt="Tillted Angle" style={{marginTop: '150px',
+                marginRight: '0px', width: '1587px'}} />
         </section>
     )
 }

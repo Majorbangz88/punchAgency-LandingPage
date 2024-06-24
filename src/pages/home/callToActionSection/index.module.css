@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 40px 0;
 }
 
 .mainCaption {
@@ -14,14 +16,29 @@
     line-height: 64px
 }
 
-.firstDiv {
+.firstDiv,
+.secondDiv,
+.thirdDiv {
+    background-image: url("../../../assets/Rectangle 3213.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     display: flex;
     flex-direction: row;
-    background-color: #EDEFFF;
     padding: 0 30px;
     width: 96.2%;
     align-items: center;
     justify-content: space-between;
+}
+
+.secondDiv {
+    background-image: url("../../../assets/Rectangle 3214.svg");
+    margin-top: -55px;
+}
+
+.thirdDiv {
+    background-image: url("../../../assets/Rectangle 3215b.svg");
+    margin-top: -55px;
 }
 
 .mainDiv {
@@ -38,4 +55,5 @@
     display: flex;
     width: 407px;
     gap: 20px;
+    align-items: end;
 }
