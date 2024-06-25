@@ -4,8 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #EDEFFF;
-    padding: 70px 60px;
+    /*background-color: #EDEFFF;*/
+    padding: 170px 60px 0;
+    background-image: url("../../../assets/Rectangle 3206.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1130px;
+    margin-top: -50px;
 
     > p {
         font-family: switzer, serif;

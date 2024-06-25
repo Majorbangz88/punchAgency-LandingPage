@@ -4,6 +4,7 @@ import AdvertSection from "./advertSection";
 import ReviewsSection from "./reviewsSection";
 import AssuranceSection from "./assuranceSection";
 import CallToActionSection from "./callToActionSection";
+import FaqSection from "./faqSection";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <ReviewsSection/>
             <AssuranceSection/>
             <CallToActionSection/>
+            <FaqSection/>
         </div>
     )
 }

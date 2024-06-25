@@ -3,6 +3,12 @@
 .container {
     display: flex;
     flex-direction: column;
+    margin-top: -200px;
+}
+
+.innerContainerDiv {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 0 60px 0;
     background-color: #202229;
@@ -10,7 +16,12 @@
 }
 
 .quote {
-    margin-right: -1250px;
+    display: flex;
+    justify-self: flex-end;
+    align-self: end;
+    margin-top: -63.5px;
+    z-index: 5;
+    rotate: -2.5deg;
 }
 
 .innerSection {
@@ -20,6 +31,7 @@
     justify-content: flex-start;
     gap: 250px;
     align-items: end;
+    margin-bottom: 200px;
 }
 
 .innerContainer {
