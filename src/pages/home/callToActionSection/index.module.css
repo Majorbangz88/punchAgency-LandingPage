@@ -22,7 +22,7 @@
     background-image: url("../../../assets/Rectangle 3213.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: row;
     padding: 0 30px;
@@ -33,12 +33,13 @@
 
 .secondDiv {
     background-image: url("../../../assets/Rectangle 3214.svg");
-    margin-top: -55px;
+    /*margin-top: -55px;*/
 }
 
 .thirdDiv {
     background-image: url("../../../assets/Rectangle 3215b.svg");
-    margin-top: -55px;
+    /*margin-top: -55px;*/
+    height: 600px;
 }
 
 .mainDiv {

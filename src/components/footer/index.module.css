@@ -11,7 +11,7 @@ footer {
     background-image: url('../../assets/Rectangle 3215.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,8 @@ footer {
 
     > p {
         font-family: switzer, serif;
-        font-size: 50px;
+        font-size: 54px;
+        line-height: 64px;
         font-weight: 600;
         color: white;
         text-align: center;
@@ -72,6 +73,9 @@ footer {
 
 .mantraMainDiv {
     width: 874px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .mantra {
@@ -107,6 +111,7 @@ footer {
         font-size: 16px;
         line-height: 35px;
         margin: 0 0 15px;
+        cursor: pointer;
     }
 }
 
@@ -128,7 +133,8 @@ footer {
 
     > p {
         font-family: switzer, serif;
-        color: white;
+        color: rgb(131, 131, 135);
         font-size: 16px;
+        cursor: pointer;
     }
 }

@@ -9,7 +9,7 @@ import SysopDev from '../../../assets/Sysops Engr.svg';
 import Engineer1 from '../../../assets/Engineer 1.svg';
 import Engineer2 from '../../../assets/Engineer 2.svg';
 import Group from '../../../assets/Group 626358.svg';
-import Group2 from '../../../assets/Group 626351.svg'
+import Group2 from '../../../assets/Group 626351.png'
 
 const CallToActionSection = () => {
     const caption = 'Find your next star <br/> performer.';
@@ -102,7 +102,7 @@ const CallToActionSection = () => {
                 </div>
             </div>
             <div className={style.secondDiv}>
-                <div>
+                <div >
                     <CTAComponent
                         image={Two}
                         boldText={<span dangerouslySetInnerHTML={{__html: secondBoxCaption}}/>}
@@ -112,7 +112,9 @@ const CallToActionSection = () => {
                     />
                 </div>
                 <div className={style.mainDiv}>
-                    <img src={Group2} alt={''}/>
+                    <img src={Group2} alt={''} style={{
+                        height: '525px', rotate: '-2deg',
+                        marginTop: '-23px'}}/>
                 </div>
             </div>
             <div className={style.thirdDiv}>
@@ -126,7 +128,9 @@ const CallToActionSection = () => {
                     />
                 </div>
                 <div className={style.mainDiv}>
-                    <img src={Group} alt={'Group'}/>
+                    <img src={Group} alt={'Group'} style={{
+                        rotate: '-2deg',
+                        alignSelf: 'flex-end', marginTop: '-35px'}}/>
                 </div>
             </div>
         </section>

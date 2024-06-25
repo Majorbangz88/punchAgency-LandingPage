@@ -1,0 +1,55 @@
+
+
+
+.whyChoose {
+    font-family: switzer, serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.thePoints {
+    font-family: switzer, serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #202229;
+}
+
+/* New and updated styles */
+
+.sliderSection {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    height: 1025px;
+}
+
+.intro {
+    flex: 1;
+}
+
+.sliderWrapper {
+    flex: 2;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider:hover {
+    animation: slide 30s infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}

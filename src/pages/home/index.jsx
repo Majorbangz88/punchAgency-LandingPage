@@ -5,6 +5,7 @@ import ReviewsSection from "./reviewsSection";
 import AssuranceSection from "./assuranceSection";
 import CallToActionSection from "./callToActionSection";
 import FaqSection from "./faqSection";
+import WhyChooseZwiltSection from "./whyChooseZwilt";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <ReviewsSection/>
             <AssuranceSection/>
             <CallToActionSection/>
+            <WhyChooseZwiltSection/>
             <FaqSection/>
         </div>
     )
