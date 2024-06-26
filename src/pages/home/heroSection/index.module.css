@@ -83,3 +83,65 @@
     color: #202229;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .body {
+        padding: 0;
+    }
+
+    .container {
+        margin: 30px 20px;
+        gap: 20px;
+    }
+
+    .heroCaption {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .heroSubCaption {
+        font-size: 18px;
+        line-height: 24px;
+        margin: -30px 0 0;
+    }
+
+    .midHero {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        > p {
+            margin: 10px 0;
+            text-align: center;
+        }
+    }
+
+    .heroLastSec {
+        padding: 20px 40px;
+    }
+
+    .rowHolder {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroCaption {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .heroSubCaption {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .heroLastSec {
+        padding: 15px 20px;
+    }
+}

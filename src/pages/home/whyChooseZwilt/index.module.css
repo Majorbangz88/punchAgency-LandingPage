@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.cdnfonts.com/css/switzer');
 
 .whyChoose {
     font-family: switzer, serif;
@@ -16,7 +15,6 @@
     color: #202229;
 }
 
-/* New and updated styles */
 
 .sliderSection {
     display: flex;
@@ -34,6 +32,8 @@
     flex: 2;
     overflow: hidden;
     position: relative;
+    height: 600px;
+    /*width: 300px;*/
 }
 
 .slider {
@@ -53,3 +53,24 @@
     66% { transform: translateX(-200%); }
     100% { transform: translateX(0); }
 }
+
+@media only screen
+and (device-width: 428px)
+and (device-height: 926px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+    .whyChoose {
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .thePoints {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .sliderSection {
+        height: auto;
+    }
+}
+

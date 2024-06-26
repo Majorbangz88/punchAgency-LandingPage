@@ -115,3 +115,94 @@
     margin-bottom: 0;
 }
 
+.bottomAngle {
+    display: flex;
+    justify-self: end;
+    margin-right: 0px;
+    width: 1587px;
+}
+
+@media (max-width: 430px) {
+    .container {
+        margin-top: -100px;
+    }
+
+    .innerContainerDiv {
+        padding: 0 20px 0;
+        height: auto;
+    }
+
+    .quote {
+        margin-top: -50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .innerSection {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .innerContainer {
+        align-items: center;
+        text-align: center;
+
+        > p {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    #innerText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .twoIcons {
+        justify-content: center;
+    }
+
+    .theIcons {
+        padding: 10px 10px;
+    }
+
+    .secondContainer {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .jason {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .textDiv {
+        align-items: center;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .role {
+        font-size: 14px;
+    }
+
+    .zwilt {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .bottomAngle {
+        display: flex;
+        justify-self: end;
+        margin-right: 0;
+        width: 50px;
+    }
+}

@@ -58,12 +58,7 @@ const ReviewsSection = () => {
                     </div>
                 </div>
             </div>
-            <img src={TiltedAngle2} alt="Tillted Angle" style={{
-                display: 'flex',
-                justifySelf: 'end',
-                marginRight: '0px',
-                width: '1587px'
-            }}/>
+            <img src={TiltedAngle2} alt="Tillted Angle" id={style.bottomAngle}/>
         </section>
     )
 }

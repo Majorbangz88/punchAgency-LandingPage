@@ -10,11 +10,14 @@ import TiltedAngle from '../../assets/Vector 343.png'
 const Footer = () => {
     return (
         <footer>
-            <img src={TiltedAngle} alt={'Tilted Angle'} style={{
-                marginTop: '-78.4px',
-                marginLeft: '-60px',
-                width: '1799px'
-            }}/>
+            <div style={{marginTop: '-75px'}}>
+                <img src={TiltedAngle} alt={'Tilted Angle'} style={{
+                    display: 'flex',
+                    justifySelf: 'flex-end',
+                    width: '89.7%',
+                    position: "absolute"
+                }}/>
+            </div>
             <div>
                 <div className={style.tiltedBackground}>
                     <p>

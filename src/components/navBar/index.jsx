@@ -1,9 +1,16 @@
-import Logo from '../../assets/logo.svg'
+import React, { useState } from 'react';
+import Logo from '../../assets/logo.svg';
 import GhostButton from '../../components/buttons/ghostButton';
 import FilledButton from '../../components/buttons/filleButton';
 import style from './index.module.css';
 
 const NavBar = () => {
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
     return (
         <div className={style.container}>
             <div className={style.logo}>
@@ -27,8 +34,20 @@ const NavBar = () => {
                               color={'black'} fontFamily={'switzer'}
                 />
             </div>
+            <div className={style.hamburgerMenu} onClick={toggleMenu}>
+                <div className={style.hamburgerIcon}>☰</div>
+                {isMenuOpen && (
+                    <div className={style.menuDropdown}>
+                        <p>Find Work</p>
+                        <p>Find Talent</p>
+                        <p>Articles</p>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                    </div>
+                )}
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default NavBar;
