@@ -10,7 +10,7 @@ import TiltedAngle2 from '../../../assets/Tilted Angle 2.svg';
 const ReviewsSection = () => {
     return (
         <section className={style.container}>
-            <img src={TiltedAngle2} alt="Tillted Angle" style={{rotate: '-180deg'}} />
+            <img src={TiltedAngle2} alt="Tillted Angle" style={{rotate: '-180deg', marginBottom: '-0.5px'}} />
             <div className={style.innerContainerDiv}>
                 <img src={Quote} alt={'Apostrophe'} className={style.quote}/>
                 <div className={style.innerSection}>
